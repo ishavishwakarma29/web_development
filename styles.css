@@ -1,0 +1,102 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #dbd9e1;
+}
+
+.box {
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  background-color: #efefef;
+}
+
+/* Our Grid Code */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  column-gap: 10px;
+  grid-template-rows: 75vh;
+}
+
+.footer,.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px;
+  background-color: #ffffff;
+}
+
+.header{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.one
+{
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  row-gap: 10px;
+  grid-template-columns: 100%;
+}
+
+.onec{
+    background-color: white;
+}
+
+.two
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  grid-template-rows: 100%;
+}
+
+.four
+{
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: 100%;
+}
+
+.ttcontainer
+{
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 100%;
+   row-gap: 10px;
+  background-color: #dbd9e1;
+}
+
+.fourc
+{
+    background-color: white;
+}
+
+.twoc{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: grey;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: white;
+}
+
+.three
+{
+    background-color: white;
+}
+
+.profile
+{
+    display: inline-block;
+    /* float:left;  remove */
+    border-radius: 40%;
+    margin:  150px 0 50px 150px;
+    padding: 5px 10px
+}
+
